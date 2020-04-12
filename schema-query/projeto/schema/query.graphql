@@ -1,0 +1,14 @@
+# Pontos de entrada da sua API à partir desse ponto é entrado em todos os nós da sua API
+type Query{
+    ola: String
+    desafioHoraAtual: String
+    scalarDate: Date
+    usuarioLogado: Usuario
+    desafioProduto: Produto
+    numerosMegaSena: [Int]
+    retornaArrayUser: [Usuario]
+    # criando uma query com passagem de parametro
+    usuario(id: ID): Usuario
+    desafioPerfis: [Perfil]
+    perfil(id: ID): Perfil
+}
