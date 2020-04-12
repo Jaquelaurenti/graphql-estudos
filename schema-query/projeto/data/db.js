@@ -5,7 +5,8 @@ const usuarioArray =[
         salario_real: 1256.36,
         vip: true,
         idade: 25,
-        perfil_id: 1 
+        perfil_id: 1,
+        status: 'ATIVO'
     },
     {
         id:2,
@@ -13,7 +14,8 @@ const usuarioArray =[
         salario_real: 1256.36,
         vip: true,
         idade: 25,
-        perfil_id: 2
+        perfil_id: 2,
+        status: 'INATIVO'
     },
     {
         id:3,
@@ -21,7 +23,8 @@ const usuarioArray =[
         salario_real: 1256.36,
         vip: true,
         idade: 25,
-        perfil_id: 1
+        perfil_id: 1,
+        status: 'BLOQUEADO'
     }
 ];
 
