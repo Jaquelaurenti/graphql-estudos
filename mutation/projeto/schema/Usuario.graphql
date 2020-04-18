@@ -17,3 +17,15 @@ type Usuario {
     perfil: Perfil
     status: UsuarioStatus
 }
+
+#Atributos que eu posso alterar no usuario
+input UsuarioInput {
+    nome: String, 
+    email: String, 
+    idade: Int
+}
+
+input UsuarioFiltro{
+    id: Int, 
+    email: String
+}
